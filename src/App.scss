@@ -19,12 +19,24 @@
   border-radius: 20px;
   display: flex;
   align-items: center;
+  justify-content: space-between;
   padding-left: 6%;
+  padding-right: 6%;
   margin-top: calc(61px + 50px);
 
   .hero-left {
     display: flex;
     flex-direction: column;
+  }
+
+  .card-1 {
+    height: 280px;
+    width: 230px;
+    background: brown;
+    background: url("./media/card.webp");
+    background-size: cover;
+    background-position: center;
+    border-radius: 18px;
   }
 
   h1 {

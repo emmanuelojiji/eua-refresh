@@ -24,6 +24,10 @@ function App() {
               <button>Search</button>
             </div>
           </div>
+
+          <div className="hero-right">
+            <div className="card-1">hey</div>
+          </div>
         </section>
 
         <ValueProposition />
