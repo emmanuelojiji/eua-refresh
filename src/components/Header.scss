@@ -41,11 +41,14 @@ nav {
 .header-search-container {
   width: 100%;
   max-width: 400px;
- 
+
   border-radius: 500px;
   margin-left: auto;
   display: flex;
   border: solid 1px #d6e5f5;
+  height: 40px;
+  align-items: center;
+  padding-right: 7px;
 
   input {
     width: 100%;
@@ -54,11 +57,17 @@ nav {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     border: 0;
+    padding-left: 16px;
+    color: #202e3f;
+
+    &::placeholder{
+      color: #202e3f;
+    }
   }
 
   .search-button {
     height: 30px;
-    width: 30px;
+    min-width: 30px;
     border-radius: 100%;
     background: #e4185a;
   }

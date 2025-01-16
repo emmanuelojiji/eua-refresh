@@ -15,7 +15,7 @@ const Header = () => {
         <p>+44 1785 303300</p>
 
         <div className="header-search-container">
-          <input type="text" className="header-input" />
+          <input type="text" className="header-input" placeholder="Search Part No"/>
           <div className="search-button"></div>
         </div>
       </div>
