@@ -71,6 +71,15 @@
   transform: translateY(20px);
   opacity: 0;
   will-change: opacity, transform;
+  text-align: left;
+
+  h2{
+    font-size: 28px;
+  }
+}
+
+.grey{
+  color: #acafb9;
 }
 
 @keyframes shrink {

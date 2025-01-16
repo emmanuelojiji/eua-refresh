@@ -73,11 +73,17 @@ function App() {
             className={`value-proposition-text ${animationState}`}
             style={{ display: display }}
           >
-            <h1>Value Proposition</h1>
+            <h2>
+              Value Proposition -{" "}
+              <span className="grey">
+                Speak to the customer's wants and needs.
+              </span>
+            </h2>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus
-              nec odio posuere odio vehicula suscipit. Morbi pharetra ultricies
-              justo. Cras aliquet, metus ac luctus consectetur,{" "}
+              Speak to the customer’s wants and needs. Outline how our service
+              can be the answer to their problems. Help them to make
+              manufacturing possible. Position the human element through the
+              lens of their eyes.
             </p>
             <button>Button here</button>
           </div>
