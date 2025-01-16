@@ -13,6 +13,11 @@ const Header = () => {
         </nav>
 
         <p>+44 1785 303300</p>
+
+        <div className="header-search-container">
+          <input type="text" className="header-input" />
+          <div className="search-button"></div>
+        </div>
       </div>
     </header>
   );
