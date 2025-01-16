@@ -4,11 +4,13 @@ const Header = () => {
   return (
     <header>
       <div className="header-content">
-        <img src={logo} />
-        <nav>Manufacturer</nav>
-        <nav>Knowledge Hub</nav>
-        <nav>About us</nav>
-        <nav>Contact us</nav>
+        <img src={logo} className="logo" />
+        <nav>
+          <a>Manufacturer</a>
+          <a>Knowledge Hub</a>
+          <a>About us</a>
+          <a>Contact us</a>
+        </nav>
 
         <p>+44 1785 303300</p>
       </div>

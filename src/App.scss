@@ -8,11 +8,11 @@
 .app-wrap {
   max-width: 1500px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 35px;
 }
 
 .hero {
-  height: 320px;
+  min-height: 320px;
   background: url("./media/bg.webp");
   background-size: cover;
   background-position: center;
@@ -22,7 +22,7 @@
   padding-left: 6%;
   margin-top: calc(61px + 50px);
 
-  .hero-left{
+  .hero-left {
     display: flex;
     flex-direction: column;
   }
@@ -31,6 +31,20 @@
     font-size: 3.5em;
     color: white;
     text-align: left;
+    margin-bottom: 37px;
+  }
+
+  input {
+    height: 40px;
+    padding-left: 12px;
+    border-radius: 50px;
+    background: none;
+    border: solid 1px white;
+    color: white;
+
+    &::placeholder {
+      color: white;
+    }
   }
 }
 
