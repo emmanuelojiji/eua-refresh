@@ -1,0 +1,106 @@
+.App {
+  text-align: center;
+  background: #f8f8f8;
+  height: 1000vh;
+}
+
+.app-wrap {
+  max-width: 1500px;
+  margin: 0 auto;
+  padding-top: 50px;
+}
+
+.hero {
+  height: 320px;
+  background: rgb(6, 88, 181);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(61px + 50px);
+}
+
+.value-proposition-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  transition: ease-in-out;
+
+  img {
+    width: 100%;
+    will-change: width;
+  }
+}
+
+.value-proposition-text {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  display: none;
+  transform: translateY(20px);
+  opacity: 0;
+  will-change: opacity, transform;
+}
+
+@keyframes shrink {
+  from {
+    width: 100%;
+  }
+
+  to {
+    width: 40%;
+  }
+}
+
+.shrink {
+  animation: shrink 0.5s forwards;
+}
+
+@keyframes grow {
+  from {
+    width: 40%;
+  }
+
+  to {
+    width: 100%;
+  }
+}
+
+.grow {
+  animation: grow 0.5s forwards;
+}
+
+@keyframes showText {
+  from {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+
+  to {
+    transform: (translateY(0px));
+    opacity: 1;
+  }
+}
+
+@keyframes hideText {
+  from {
+    transform: (translateY(0px));
+    opacity: 1;
+  }
+
+  to {
+    transform: translateY(20px);
+    opacity: 0;
+  }
+}
+
+.showText {
+  animation: showText 1s forwards;
+}
+
+.hideText {
+  animation: hideText 1s forwards;
+}

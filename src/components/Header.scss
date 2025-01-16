@@ -1,0 +1,19 @@
+header {
+  width: 100%;
+  max-width: 1500px;
+  display: flex;
+  align-items: center;
+  height: 61px;
+  margin: 0 0 33px;
+  padding: 10px 10px 11px 20px;
+  border-radius: 10px;
+  -webkit-backdrop-filter: blur(20px);
+  backdrop-filter: blur(20px);
+  box-shadow: 0 6px 20px 0 rgba(62, 111, 174, 0.1);
+  background-color: #fff;
+  position: fixed;
+  top: 50px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 1;
+}
