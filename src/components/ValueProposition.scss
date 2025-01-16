@@ -26,6 +26,17 @@
   display: none;
   transform: (translateY(20px));
   opacity: 0;
+  border-radius: 10px;
+}
+
+.parts-box-top {
+  background: white;
+  padding: 10px 0;
+}
+
+.parts-box-bottom {
+  padding: 20px 50px;
+  color: white;
 }
 
 .value-proposition-text-container {
@@ -124,8 +135,8 @@
   animation: showBox 0.5s forwards;
 }
 
-.hideBox{
-    animation: hideBox 0.5s forwards;
+.hideBox {
+  animation: hideBox 0.5s forwards;
 }
 
 @keyframes showBox {
@@ -140,15 +151,14 @@
   }
 }
 
-
 @keyframes hideBox {
-    from {
-        transform: (translateY(0px));
-        opacity: 1;
-    }
-  
-    to {
-      transform: (translateY(20px));
-      opacity: 0;
-    }
+  from {
+    transform: (translateY(0px));
+    opacity: 1;
   }
+
+  to {
+    transform: (translateY(20px));
+    opacity: 0;
+  }
+}
