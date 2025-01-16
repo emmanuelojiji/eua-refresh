@@ -26,7 +26,10 @@ function App() {
           </div>
 
           <div className="hero-right">
-            <div className="card-1">hey</div>
+            <div className="card-container">
+              <div className="card-1"></div>
+              <div className="card-2"></div>
+            </div>
           </div>
         </section>
 
