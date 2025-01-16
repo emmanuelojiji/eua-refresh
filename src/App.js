@@ -70,7 +70,7 @@ function App() {
         <section className="value-proposition-container">
           <img src={globe} className={imageState} alt="Globe" />
           <div
-            className={`value-proposition-text ${animationState}`}
+            className={`value-proposition-text-container ${animationState}`}
             style={{ display: display }}
           >
             <h2>
@@ -85,7 +85,7 @@ function App() {
               manufacturing possible. Position the human element through the
               lens of their eyes.
             </p>
-            <button>Button here</button>
+            <button>CTA</button>
           </div>
         </section>
       </div>
