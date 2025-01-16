@@ -12,12 +12,21 @@
 
 .hero {
   height: 320px;
-  background: rgb(6, 88, 181);
+  background: url("./media/bg.webp");
+  background-size: cover;
+  background-position: center;
+  border-radius: 20px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   margin-top: calc(61px + 50px);
+
+  h1{
+    font-size: 3.5em;
+    color: white;
+    text-align: left;
+  }
 }
 
 .value-proposition-container {

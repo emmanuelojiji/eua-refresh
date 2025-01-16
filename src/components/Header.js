@@ -1,9 +1,9 @@
 import "./Header.scss";
-
+import logo from "../media/eua-logo.svg";
 const Header = () => {
   return (
     <header>
-      <h1>EUA</h1>
+      <img src={logo} />
       <nav>Manufacturer</nav>
       <nav>Knowledge Hub</nav>
       <nav>About us</nav>
