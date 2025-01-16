@@ -55,11 +55,16 @@ function App() {
       <div className="app-wrap">
         <Header />
         <section className="hero">
-          <h1>Need an automation or control part quickly?</h1>
-          <input
-            type="text"
-            placeholder="What parts are you looking for?"
-          ></input>
+          <div className="hero-left">
+            <h1>
+              Need an automation or
+              <br /> control part quickly?
+            </h1>
+            <input
+              type="text"
+              placeholder="What parts are you looking for?"
+            ></input>
+          </div>
         </section>
 
         <section className="value-proposition-container">
