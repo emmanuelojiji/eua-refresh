@@ -34,17 +34,32 @@
     margin-bottom: 37px;
   }
 
-  input {
-    height: 40px;
-    padding-left: 12px;
+  .input-container {
+    height: 42px;
     border-radius: 50px;
-    background: none;
     border: solid 1px white;
     color: white;
+    display: flex;
 
-    &::placeholder {
-      color: white;
+    input {
+      //background: none;
+      height: 100%;
+      border-radius: 50px;
+      padding-left: 12px;
+      width: 100%;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      background: none;
+      border: 0;
+      &::placeholder {
+        color: white;
+      }
+    }
+
+    button {
+      border-radius: 500px;
+      padding: 0 20px;
+      border: 0;
     }
   }
 }
-

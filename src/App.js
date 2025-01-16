@@ -16,10 +16,13 @@ function App() {
               Need an automation or
               <br /> control part quickly?
             </h1>
-            <input
-              type="text"
-              placeholder="What parts are you looking for?"
-            ></input>
+            <div className="input-container">
+              <input
+                type="text"
+                placeholder="What parts are you looking for?"
+              ></input>
+              <button>Search</button>
+            </div>
           </div>
         </section>
 
