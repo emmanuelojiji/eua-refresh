@@ -16,14 +16,22 @@ nav {
   display: flex;
   margin-right: 30px;
 
+
   a,
   p {
     font-size: 14px;
     cursor: pointer;
   }
+
+  a {
+    transition: 0.2s ease-in-out;
+    &:hover {
+      color: #526fae;
+    }
+  }
 }
 
-.fa-chevron-down{
+.fa-chevron-down {
   margin-left: 5px;
 }
 
@@ -88,7 +96,7 @@ nav {
     justify-content: center;
     cursor: pointer;
 
-    i{
+    i {
       transform: scaleX(-1);
     }
   }
