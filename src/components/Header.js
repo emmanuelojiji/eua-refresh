@@ -24,7 +24,7 @@ const Header = () => {
           <div className="search-button"></div>
         </div>
 
-        <span>EN</span>
+        <span className="language">EN</span>
         <i class="fa-solid fa-globe icon"></i>
       </div>
     </header>

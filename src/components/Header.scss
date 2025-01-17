@@ -1,6 +1,4 @@
 header {
-  padding-left: 2%;
-  padding-right: 2%;
   width: 100%;
   position: fixed;
   top: 25px;
@@ -22,6 +20,15 @@ nav {
   p {
     font-size: 14px;
   }
+}
+
+.fa-phone {
+  margin-right: 5px;
+}
+
+.language {
+  margin-left: 10px;
+  margin-right: 5px;
 }
 
 .header-content {
@@ -60,7 +67,7 @@ nav {
     padding-left: 16px;
     color: #202e3f;
 
-    &::placeholder{
+    &::placeholder {
       color: #202e3f;
     }
   }
