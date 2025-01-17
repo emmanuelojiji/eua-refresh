@@ -12,12 +12,20 @@ const Header = () => {
           <a>Contact us</a>
         </nav>
 
+        <i class="fa-solid fa-phone icon"></i>
         <p>+44 1785 303300</p>
 
         <div className="header-search-container">
-          <input type="text" className="header-input" placeholder="Search Part No"/>
+          <input
+            type="text"
+            className="header-input"
+            placeholder="Search Part No"
+          />
           <div className="search-button"></div>
         </div>
+
+        <span>EN</span>
+        <i class="fa-solid fa-globe icon"></i>
       </div>
     </header>
   );
