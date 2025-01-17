@@ -29,13 +29,18 @@ function App() {
 
           <div className="hero-right">
             <div className="card-container">
-              <div className="card-1">3,045,928<br></br> parts</div>
+              <div className="card-1">
+                3,045,928<br></br> parts
+              </div>
               <div className="card-2"></div>
             </div>
           </div>
         </section>
 
         <ValueProposition />
+
+        <section className="skeleton"></section>
+        <section className="skeleton"></section>
       </div>
     </div>
   );
