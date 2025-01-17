@@ -53,6 +53,10 @@
   color: white;
   font-size: 25px;
   border-radius: 500px;
+  font-size: 18px;
+  font-weight: 600;
+
+  padding: 2% 4%;
 }
 
 .value-proposition-text-container {
@@ -207,10 +211,10 @@
   }
 }
 
-.showPill{
+.showPill {
   animation: showPill 0.5s forwards;
 }
 
-.hidePill{
+.hidePill {
   animation: hidePill 0.5s forwards;
 }

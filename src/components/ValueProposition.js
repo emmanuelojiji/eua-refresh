@@ -97,7 +97,7 @@ const ValueProposition = () => {
           className={`numbers-pill ${pillAnimationState}`}
           style={{ display: pillDisplay }}
         >
-          3,045,928
+          3,045,928 parts
         </div>
         <img src={globe} alt="Globe" />
       </div>
