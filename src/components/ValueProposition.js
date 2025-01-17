@@ -12,6 +12,9 @@ const ValueProposition = () => {
   const [boxDisplay, setBoxDisplay] = useState("none");
   const [boxAnimationState, setBoxAnimationState] = useState("");
 
+  const [pillDisplay, setPillDisplay] = useState("none");
+  const [pillAnimationState, setPillAnimationState] = useState("none");
+
   const displayTimeoutRef = useRef(null);
 
   const handleScroll = () => {
@@ -33,6 +36,12 @@ const ValueProposition = () => {
       setTimeout(() => {
         setTextDisplay("flex");
       }, 300);
+
+      setTimeout(() => {
+        setPillDisplay("block");
+      }, 800);
+
+      setPillAnimationState("showPill");
     } else if (currentScrollY < 200 && hasShrunk) {
       if (displayTimeoutRef.current) clearTimeout(displayTimeoutRef.current);
       setHasShrunk(false);
@@ -76,6 +85,13 @@ const ValueProposition = () => {
             Lorem ipsum dolor sit
             <br /> amet, consectetur.
           </div>
+        </div>
+
+        <div
+          className={`numbers-pill ${pillAnimationState}`}
+          style={{ display: pillDisplay }}
+        >
+          3,045,928
         </div>
         <img src={globe} alt="Globe" />
       </div>

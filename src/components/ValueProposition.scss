@@ -40,6 +40,21 @@
   color: white;
 }
 
+.numbers-pill {
+  background: #e4185a;
+  width: fit-content;
+  position: absolute;
+  left: 0;
+  bottom: 100px;
+  //display: none;
+  transform: (translateY(20px));
+  //opacity: 0;
+  border-radius: 10px;
+  color: white;
+  font-size: 25px;
+  border-radius: 500px;
+}
+
 .value-proposition-text-container {
   width: 40%;
   display: flex;
@@ -87,7 +102,7 @@
 }
 
 .shrink {
-  animation: shrink 0.5s forwards;
+  animation: shrink 0.25s forwards;
 }
 
 @keyframes grow {
@@ -166,4 +181,36 @@
     transform: (translateY(20px));
     opacity: 0;
   }
+}
+
+@keyframes hidePill {
+  from {
+    transform: (translateY(0px));
+    opacity: 1;
+  }
+
+  to {
+    transform: (translateY(20px));
+    opacity: 0;
+  }
+}
+
+@keyframes showPill {
+  from {
+    transform: (translateY(20px));
+    opacity: 0;
+  }
+
+  to {
+    transform: (translateY(0px));
+    opacity: 1;
+  }
+}
+
+.showPill{
+  animation: showPill 0.5s forwards;
+}
+
+.hidePill{
+  animation: hidePill 0.5s forwards;
 }

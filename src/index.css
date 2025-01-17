@@ -31,3 +31,7 @@ h2{
 .icon{
   color: #e4185a;
 }
+
+a, button{
+  cursor: pointer;
+}
