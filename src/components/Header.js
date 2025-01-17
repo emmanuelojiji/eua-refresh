@@ -6,8 +6,13 @@ const Header = () => {
       <div className="header-content">
         <img src={logo} className="logo" />
         <nav>
-          <a>Manufacturer</a>
-          <a>Knowledge Hub</a>
+          <a>
+            Manufacturer<i class="fa-solid fa-chevron-down"></i>
+          </a>
+
+          <a>
+            Knowledge Hub<i class="fa-solid fa-chevron-down"></i>
+          </a>
           <a>About us</a>
           <a>Contact us</a>
         </nav>
@@ -22,7 +27,7 @@ const Header = () => {
             placeholder="Search Part No"
           />
           <div className="search-button">
-          <i class="fa-solid fa-magnifying-glass"></i>
+            <i class="fa-solid fa-magnifying-glass"></i>
           </div>
         </div>
 
