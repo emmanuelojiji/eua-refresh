@@ -25,6 +25,8 @@ const ValueProposition = () => {
       if (displayTimeoutRef.current) clearTimeout(displayTimeoutRef.current);
       setHasShrunk(true);
       setImageState("shrink");
+
+      
       setTextAnimationState("showText");
 
       setTimeout(() => {
