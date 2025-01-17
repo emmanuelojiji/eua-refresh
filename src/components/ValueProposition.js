@@ -26,7 +26,6 @@ const ValueProposition = () => {
       setHasShrunk(true);
       setImageState("shrink");
 
-      
       setTextAnimationState("showText");
 
       setTimeout(() => {

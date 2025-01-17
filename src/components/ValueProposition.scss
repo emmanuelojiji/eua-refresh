@@ -71,7 +71,6 @@
   will-change: opacity, transform;
   text-align: left;
 
-
   h2 {
     font-size: 28px;
     margin-bottom: 25px;
@@ -158,7 +157,7 @@
 }
 
 .showBox {
-  animation: showBox 0.5s forwards;
+  animation: showBox 0.1s forwards;
 }
 
 .hideBox {
@@ -214,8 +213,7 @@
 }
 
 .showPill {
-  animation: showPill 0.5s forwards;
-
+  animation: showPill 0.2s forwards;
 }
 
 .hidePill {
