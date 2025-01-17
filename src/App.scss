@@ -35,8 +35,8 @@
   }
 
   .card-1 {
-    height: 280px;
-    width: 230px;
+    height: 279px;
+    width: 238px;
     background: brown;
     background: url("./media/card.webp");
     background-size: cover;
@@ -44,12 +44,22 @@
     border-radius: 18px;
     z-index: 1;
     position: relative;
+    color: white;
+    font-size: 30px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: start;
+    padding-left: 20px;
+    padding-bottom: 25px;
+    text-align: left;
+    line-height: 30px;
+    font-weight: 600;
   }
 
   .card-2 {
     height: 280px;
     width: 230px;
-    background: grey;
+    background: #D4D4D4;
 
     background-size: cover;
     background-position: center;
