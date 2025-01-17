@@ -21,7 +21,9 @@ function App() {
                 type="text"
                 placeholder="What parts are you looking for?"
               ></input>
-              <button>Search</button>
+              <button>
+                Search <i class="fa-solid fa-magnifying-glass"></i>
+              </button>
             </div>
           </div>
 

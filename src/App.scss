@@ -12,7 +12,6 @@
 }
 
 .hero {
-
   background: url("./media/bg.webp");
   background-size: cover;
   background-position: center;
@@ -31,7 +30,7 @@
     flex-direction: column;
   }
 
-  .card-container{
+  .card-container {
     position: relative;
   }
 
@@ -51,7 +50,7 @@
     height: 280px;
     width: 230px;
     background: grey;
-   
+
     background-size: cover;
     background-position: center;
     border-radius: 18px;
@@ -59,7 +58,6 @@
     top: 4px;
     left: -15px;
     transform: rotate(-2deg);
-
   }
 
   h1 {
@@ -95,6 +93,13 @@
       border-radius: 500px;
       padding: 0 20px;
       border: 0;
+      display: flex;
+      align-items: center;
+
+      i {
+        margin-left: 5px;
+        color: #e4185a;
+      }
     }
   }
 }

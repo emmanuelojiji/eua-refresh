@@ -21,7 +21,9 @@ const Header = () => {
             className="header-input"
             placeholder="Search Part No"
           />
-          <div className="search-button"></div>
+          <div className="search-button">
+          <i class="fa-solid fa-magnifying-glass"></i>
+          </div>
         </div>
 
         <span className="language">EN</span>
