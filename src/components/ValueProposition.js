@@ -61,7 +61,7 @@ const ValueProposition = () => {
 
       setTimeout(() => {
         setTextDisplay("none");
-      }, 500);
+      }, 400);
 
       setPillAnimationState("hidePill");
 
