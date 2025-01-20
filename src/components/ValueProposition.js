@@ -87,7 +87,12 @@ const ValueProposition = () => {
           className={`parts-box-container ${boxAnimationState}`}
           style={{ display: boxDisplay }}
         >
-          <div className="parts-box-top">3,045,928 parts</div>
+          <div className="parts-box-top">
+            <div className="star-container">
+              <i class="fa-solid fa-star"></i>
+            </div>
+            3,045,928 parts
+          </div>
           <div className="parts-box-bottom">
             Lorem ipsum dolor sit
             <br /> amet, consectetur.
