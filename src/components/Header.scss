@@ -11,14 +11,12 @@ header {
   justify-content: center;
   padding-left: 2%;
   padding-right: 2%;
-
 }
 
 nav {
   gap: 50px;
   display: flex;
-  margin-right: 30px;
-
+  margin-right: 50px;
 
   a,
   p {
@@ -32,6 +30,10 @@ nav {
       color: #526fae;
     }
   }
+}
+
+.phone-number {
+  font-size: 14px;
 }
 
 .fa-chevron-down {

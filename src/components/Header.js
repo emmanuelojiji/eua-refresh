@@ -18,7 +18,7 @@ const Header = () => {
         </nav>
 
         <i class="fa-solid fa-phone icon"></i>
-        <p>+44 1785 303300</p>
+        <p className="phone-number">+44 1785 303300</p>
 
         <div className="header-search-container">
           <input
