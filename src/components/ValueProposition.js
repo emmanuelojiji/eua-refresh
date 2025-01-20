@@ -29,7 +29,7 @@ const ValueProposition = () => {
       setTextAnimationState("showText");
 
       setTimeout(() => {
-        setBoxDisplay("block");
+        setBoxDisplay("flex");
       }, 500);
 
       setBoxAnimationState("showBox");
